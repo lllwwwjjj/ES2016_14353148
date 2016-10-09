@@ -12,7 +12,7 @@
 ##### DOL框架描述
 分布式操作层*DOL(Distributed Operation Layer)*是一个用于管理并行程序的软件框架。DOL允许基于卡恩流程网络计算模型指定应用并基于*SystemC*语言设计出一个仿真引擎。不仅如此，DOL还提供了基于XML的规范格式来描述在多处理器系统上并行程序的实现，包括绑定和索引。
 
-![](http://i1.piimg.com/567571/a4ab3c3796f64dc5.png =600x300)
+![](http://i1.piimg.com/567571/a4ab3c3796f64dc5.png)
 ### How to install
 ##### DOL安装笔记
 本次实验环境在linux下进行，建议使用虚拟机安装Ubuntu
