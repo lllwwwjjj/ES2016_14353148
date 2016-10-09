@@ -80,11 +80,13 @@ VMware： [安装教程](http://jingyan.baidu.com/article/0320e2c1ef9f6c1b87507b
 >	pwd
 
 ![](http://p1.bqimg.com/567571/9c4564d7c3734478.png)
+
 这里表示我当前的工作路径为 /home/jun/systemc-2.3.1
 
 **编译dol**
 进入刚刚dol的文件夹
 >	cd ../dol
+
 修改build_zip.xml文件
 找到下面这段话，就是说上面编译的systemc位置在哪里，
 	<property name="systemc.inc" value="YYY/include"/>	
@@ -93,6 +95,7 @@ VMware： [安装教程](http://jingyan.baidu.com/article/0320e2c1ef9f6c1b87507b
 
 然后是编译
 >	ant -f build_zip.xml all
+
 若成功会显示build successful
 
 ![](http://p1.bpimg.com/567571/bf08811d11edcd90.png)
@@ -100,6 +103,7 @@ VMware： [安装教程](http://jingyan.baidu.com/article/0320e2c1ef9f6c1b87507b
 接着可以试试运行第一个例子
 进入build/bin/mian路径下
 >	cd build/bin/main
+
 然后运行第一个例子
 >	sudo ant -f runexample.xml -Dnumber=1
 
