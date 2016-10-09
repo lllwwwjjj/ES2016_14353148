@@ -59,10 +59,13 @@ VMware： [安装教程](http://jingyan.baidu.com/article/0320e2c1ef9f6c1b87507b
 
 解压后进入systemc-2.3.1的目录下
 >	cd systemc-2.3.1
+
 新建一个临时文件夹objdir
 >	mkdir objdir
+
 进入该文件夹objdir
 >	cd objdir
+
 运行configure(能根据系统的环境设置一下参数，用于编译)
 >	../configure CXX=g++ --disable-async-updates
 
