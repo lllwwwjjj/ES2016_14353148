@@ -43,6 +43,7 @@ VMware： [安装教程](http://jingyan.baidu.com/article/0320e2c1ef9f6c1b87507b
 >	sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
 >	
 >	sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
+
 **解压文件**
 
 新建dol的文件夹
