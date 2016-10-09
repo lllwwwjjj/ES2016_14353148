@@ -72,6 +72,7 @@ VMware： [安装教程](http://jingyan.baidu.com/article/0320e2c1ef9f6c1b87507b
 
 编译
 >	sudo make install
+
 编译完后文件目录如下($ cd ..        $ ls)，能看到include, lib-linux64(对于32位系统，这里是lib-linux)
 
 ![](http://p1.bqimg.com/567571/9f53644ccbffd8a2.png)
@@ -84,13 +85,16 @@ VMware： [安装教程](http://jingyan.baidu.com/article/0320e2c1ef9f6c1b87507b
 这里表示我当前的工作路径为 /home/jun/systemc-2.3.1
 
 **编译dol**
+
 进入刚刚dol的文件夹
 >	cd ../dol
 
 修改build_zip.xml文件
 找到下面这段话，就是说上面编译的systemc位置在哪里，
+
 	<property name="systemc.inc" value="YYY/include"/>	
 	<property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/>
+	
 把YYY改成上页pwd的结果（注意，对于64位系统的机器，lib-linux要改成lib-linux64）
 
 然后是编译
